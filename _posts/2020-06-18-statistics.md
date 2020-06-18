@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Statistics"
-date: 2014-04-30
+date: 2020-06-18
 ---
 
 Well. Finally got around to putting this old website together. Neat thing about it - 
