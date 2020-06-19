@@ -5,8 +5,8 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Please Solve</title>
-	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://hankquinlan.github.io/blog"/>
+	<link href="http://pleasesolve.github.io/stats/atom.xml" rel="self"/>
+	<link href="http://pleasesolve.github.io/stats"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://pleasesolve.github.io/blog</id>
 	<!--><author>
