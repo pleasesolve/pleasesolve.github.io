@@ -56,7 +56,7 @@ plot_freq_poly(heights,freq,font)
 ```
 
 
-![png](2020-07-01-1python-freq-diag-mean-std_files/2020-07-01-1python-freq-diag-mean-std_3_0.png)
+![png](/images/2020-07-01-1python-freq-diag-mean-std_files/2020-07-01-1python-freq-diag-mean-std_3_0.png)
 
 
 ## How to balance the histogram at a single point?
@@ -78,7 +78,7 @@ plt.text(x=160,y=-5,s='mean',fontdict=font)
 
 
 
-![png](2020-07-01-1python-freq-diag-mean-std_files/2020-07-01-1python-freq-diag-mean-std_5_2.png)
+![png](/images/2020-07-01-1python-freq-diag-mean-std_files/2020-07-01-1python-freq-diag-mean-std_5_2.png)
 
 
 
@@ -99,5 +99,5 @@ plt.text(x=160,y=-5,s='mean',fontdict=font)
 
 
 
-![png](2020-07-01-1python-freq-diag-mean-std_files/2020-07-01-1python-freq-diag-mean-std_6_2.png)
+![png](/images/2020-07-01-1python-freq-diag-mean-std_files/2020-07-01-1python-freq-diag-mean-std_6_2.png)
 
