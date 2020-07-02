@@ -1,5 +1,45 @@
-theme: jekyll-theme-merlot
+#theme: jekyll-theme-merlot
 title: PLEASE SOLVE
 description: Learn concepts by solving questions.
 timezone: Asia/Kolkata
-permalink: /blog/:year/:month/:day/:title
+#permalink: /blog/:year/:month/:day/:title
+#theme: just-the-docs
+#remote_theme: pleasesolve/just-the-docs
+#title: "PLEASE SOLVE"
+#description: Learn concepts by solving questions.
+remote_theme: pleasesolve/just-the-docs
+color_scheme: "nil"
+search_enabled: true
+
+# Enable support for hyphenated search words:
+search_tokenizer_separator: /[\s/]+/
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
+# Supports true (default) or false/nil
+heading_anchors: true
+
+# Adding for mathjax support
+compress_html:
+  blanklines: true
+
+mathjax:
+  source: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML
+  config: 'MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } })'
+
+edit_links:
+  text: Edit this page on GitHub
+  base_url: https://github.com/pleasesolve/pleasesolve.github.io/blob/source
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hand_wrap: false
+  gfm_quirks: paragraph_end
+  syntax_highligher: rouge
+  syntax_highligher_opts:
+    default_lang: plaintext
+
+highlighter: rouge
+
