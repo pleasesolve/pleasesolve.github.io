@@ -26,6 +26,8 @@
 
   {% endif %}
 
+  {% if site.google_ad_client %}{% include google_analytics.html %}{% endif %} 
+
   {% if site.search_enabled != false %}
     <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | absolute_url }}"></script>
   {% endif %}
