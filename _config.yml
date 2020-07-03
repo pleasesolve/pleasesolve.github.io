@@ -47,3 +47,7 @@ highlighter: rouge
 
 plugins:
   - jekyll-seo-tag
+
+ga_tracking: UA-171604216-1
+ga_tracking_anonymize_ip: true
+
