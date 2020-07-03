@@ -1,7 +1,7 @@
 title: Please Solve
 description: Learn While Solving
 timezone: Asia/Kolkata
-theme: just-the-docs
+remote_theme: pleasesolve/just-the-docs
 logo: "/assets/images/please_solve3.gif"
 aux_links:
   "Youtube Playlists":
