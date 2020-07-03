@@ -1,15 +1,17 @@
-#theme: jekyll-theme-merlot
-title: PLEASE SOLVE
+title: Please Solve
 description: Learn concepts by solving questions.
 timezone: Asia/Kolkata
-#permalink: /blog/:year/:month/:day/:title
-#theme: just-the-docs
-#remote_theme: pleasesolve/just-the-docs
-#title: "PLEASE SOLVE"
-#description: Learn concepts by solving questions.
-remote_theme: pleasesolve/just-the-docs
-color_scheme: "nil"
+theme: just-the-docs
+logo: "/assets/images/please_solve3.gif"
+aux_links:
+  "Youtube Playlists":
+    - "https://www.youtube.com/channel/UCs8YbsgXqqumOFy-3m75cCA/playlists"
+aux_links_new_tab: true
+
+color_scheme: "light"
 search_enabled: true
+
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
 
 # Enable support for hyphenated search words:
 search_tokenizer_separator: /[\s/]+/
@@ -43,3 +45,5 @@ kramdown:
 
 highlighter: rouge
 
+plugins:
+  - jekyll-seo-tag
