@@ -3,7 +3,7 @@ layout: default
 title: Python and R
 nav_order: 2
 description: "Programming"
-permalink: /
+permalink: /python-r/
 ---
 # Python and R
 
@@ -11,11 +11,9 @@ Python and R are popular open source programming tools for data analysis. For th
 
 To make it simpler, here at Please Solve, both Python and R implementations are presented for basic problems of statistics. Hopefully, they can be helpful to understand the nuances of both the language and to make smart choice for a data scenario at hand. 
 
-There is also a [Youtube Playlist](https://www.youtube.com/playlist?list=PLWYDYtNLvURwSDzofvJ94qGGoboRf96w9){:target="_blank"} available.
+A list of implementations is provided below. There is also a [Youtube Playlist](https://www.youtube.com/playlist?list=PLWYDYtNLvURwSDzofvJ94qGGoboRf96w9){:target="_blank"} available.
 
-1. TOC
-{:toc}
-A list of implementations is provided here.
+## Table of contents
 
 [Creating objects in Python and R](/statistics/ch1/ch1-1.md)
 
