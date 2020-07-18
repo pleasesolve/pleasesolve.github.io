@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Please Solve
+title: About Please Solve
 nav_order: 1
 description: "Learn While Solving"
 permalink: /

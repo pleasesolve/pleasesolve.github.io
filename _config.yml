@@ -1,4 +1,3 @@
-excerpt_separator: "{{ }}"
 title: Please Solve
 description: Learn While Solving
 timezone: Asia/Kolkata
@@ -9,7 +8,7 @@ aux_links:
     - "https://www.youtube.com/channel/UCs8YbsgXqqumOFy-3m75cCA/playlists"
 aux_links_new_tab: true
 
-color_scheme: "light"
+color_scheme: "nil"
 search_enabled: true
 
 back_to_top: true
@@ -33,14 +32,15 @@ mathjax:
   source: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML
   config: 'MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } })'
 
-edit_links:
-  text: Edit this page on GitHub
-  base_url: https://github.com/pleasesolve/pleasesolve.github.io/blob/source
+#edit_links:
+#  text: Edit this page on GitHub
+#  base_url: https://github.com/pleasesolve/pleasesolve.github.io/blob/source
 
 markdown: kramdown
 
 kramdown:
   input: GFM
+#  parse_block_html: true
   hand_wrap: false
   gfm_quirks: paragraph_end
   syntax_highligher: rouge
