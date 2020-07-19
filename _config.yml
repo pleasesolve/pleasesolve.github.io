@@ -40,7 +40,7 @@ markdown: kramdown
 
 kramdown:
   input: GFM
-#  parse_block_html: true
+  parse_block_html: true
   hand_wrap: false
   gfm_quirks: paragraph_end
   syntax_highligher: rouge
