@@ -22,7 +22,7 @@ mathjax: true
  <p style="text-align: center;"> Problem </p>
 ![png](/assets/images/phy/12/ch1/1_both.png)
  <p style="text-align: center;"> Solution </p>
-எலக்ட்ரானின் மின்னூட்ட மதிப்பு: $$1.6 x 10-19\ \text{C}$$.<br>
+எலக்ட்ரானின் மின்னூட்ட மதிப்பு: $$1.6 \times 10^{-19}\ \text{C}$$.<br>
 எனவே, $$50\ \text{nC}$$ க்கு $$31.25\times10^{10}$$ எலக்ட்ரான்கள் இடம் பெயர வேண்டும்.
 <div class="youtube-responsive-container"><iframe src="https://www.youtube.com/embed/86ncj2gJ2RY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 ###### [Back to top](#top)
@@ -38,7 +38,7 @@ mathjax: true
  <p style="text-align: center;"> Solution </p>
 எலக்ட்ரானின் மின்னூட்ட மதிப்பு: $$1.6 \times 10^{-19}\ \text{C}$$.<br>
 1% எலக்ட்ரான்களை இழப்பதால் இருவரது மின்னூட்டம்:<br>
-$$0.01 x 10^{28} \times 1.6 \times 10^{-19} = 1.6 \times 10^7\ \text{C}.$$<br>
+$$0.01 \times 10^{28} \times 1.6 \times 10^{-19} = 1.6 \times 10^7\ \text{C}.$$<br>
 $$ q_1,q_2 $$ இடையே இருக்கும் நிலைமின் விசை:
 $$\frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r^2}$$.<br>
 எனவே, ஒரு மீட்டர் இடைவெளியில் நிலைமின் விசை = $$9 \times 10^9 \times 1.6 \times 10^7 \times 1.6 \times 10^7 = 23.04 \times 10^{23}\ \text{N}$$.<br>
