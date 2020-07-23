@@ -18,6 +18,7 @@ gem "jekyll", "3.8.5"
 gem "nokogiri", ">= 1.10.8"
 
 group :jekyll_plugins do
+  gem 'jekyll-pwa-plugin'
   gem "liquid", "4.0.0"
   gem "rouge", "3.11.0"
   gem "jekyll-redirect-from", "0.14.0"

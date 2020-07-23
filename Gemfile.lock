@@ -63,6 +63,7 @@ GEM
     jekyll-optional-front-matter (0.3.0)
       jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
+    jekyll-pwa-plugin (2.2.3)
     jekyll-readme-index (0.2.0)
       jekyll (~> 3.0)
     jekyll-redirect-from (0.14.0)
@@ -141,6 +142,7 @@ DEPENDENCIES
   jekyll-mentions (= 1.4.1)
   jekyll-optional-front-matter (= 0.3.0)
   jekyll-paginate (= 1.1.0)
+  jekyll-pwa-plugin
   jekyll-readme-index (= 0.2.0)
   jekyll-redirect-from (= 0.14.0)
   jekyll-relative-links (= 0.6.0)
