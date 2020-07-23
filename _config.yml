@@ -12,6 +12,15 @@ lang_direction: "ltr"
 color_scheme: "nil"
 search_enabled: true
 
+name: 'Please Solve'
+short_name: "PSolve"
+url: "https://pleasesolve.github.io"
+language: "en"
+lang_direction: "ltr"
+color: "#abc123"
+
+
+
 back_to_top: true
 back_to_top_text: "Back to top"
 
