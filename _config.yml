@@ -8,6 +8,7 @@ aux_links:
     - "https://www.youtube.com/channel/UCs8YbsgXqqumOFy-3m75cCA/playlists"
 aux_links_new_tab: true
 
+lang_direction: "ltr"
 color_scheme: "nil"
 search_enabled: true
 
