@@ -1,0 +1,52 @@
+stages:
+  - build
+  - generate_sw
+  - deploy
+
+# First build the static _site directory with some 
+# custom configuration for production. 
+# Mark the _site directory as an artifact to pass the directory to the "generate_sw" step.
+build:
+  stage: build
+  image: ruby:2.5
+  artifacts:
+    paths:
+      - _site
+  before_script:
+    - gem install jekyll bundler
+  script:
+    - bundle exec jekyll build --config _config.yml,_config.prod.yml
+
+# Next step after generating site is to generate the service worker. 
+# The _site directory from the previous step is downloaded, 
+# the service worker is generated into the _site directory. 
+# Mark the updated _site directory as an artifact again to pass it to 
+# the "deploy" step.
+generate_sw:
+  stage: generate_sw
+  image: node:8-alpine
+  artifacts:
+    paths:
+      - _site
+  before_script:
+    - npm i -g workbox-cli
+  script:
+    - workbox generateSW workbox-config.js
+
+# Deployment step will only trigger if current branch is the master branch.
+# Mark this step as a the production environment.
+# This example uses firebase hosting for deployment, install the CLI from npm and run the
+# deploy command.
+deploy:
+  image: node:8-alpine
+  stage: deploy
+  only:
+    - master
+  environment:
+    name: production
+    url: $PRODUCTION_URL
+  before_script:
+    - npm install -g firebase-tools
+  script:
+    - firebase deploy --token $TOKEN
+
