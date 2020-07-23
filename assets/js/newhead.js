@@ -4,10 +4,10 @@ layout: none
 ---
 
 {
-  "lang": "en",
-  "dir": "ltr\rtl",
-  "name": "Please Solve",
-  "short_name": "PSolve",
+  "lang": "{{ site.language }}",
+  "dir": "{{ site.lang_direction }}",
+  "name": {{ site.name | smartify | jsonify }},
+  "short_name": {{ site.short_name | smartify | jsonify }},
   "icons": [
     {
       "src": "\/assets\/images\/thinking3.png",
@@ -15,12 +15,10 @@ layout: none
       "type": "image\/png"
     }
   ],
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "start_url": "/",
+  "theme_color": "{{ site.color }}",
+  "background_color": "{{ site.color }}",
+  "start_url": "{{ site.url }}",
   "display": "standalone",
-  "orientation": "portrait",
-  "icons": [],
-  "splash_pages": null
+  "orientation": "potrait"
 }
 
