@@ -65,16 +65,16 @@ plugins:
 ga_tracking: UA-171604216-1
 ga_tracking_anonymize_ip: true
 
-pwa:
-  enabled: true # Optional
-  sw_src_filepath: service-worker.js # Optional
-  sw_dest_filename: service-worker.js # Optional
-  dest_js_directory: assets/js # Required
-  precache_recent_posts_num: 5 # Optional
-  precache_glob_directory: / # Optional
-  precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
-    - index.html
-  precache_glob_ignores: # Optional
-    - sw-register.js
-    - "fonts/**/*"
+#pwa:
+#  enabled: true # Optional
+#  sw_src_filepath: service-worker.js # Optional
+#  sw_dest_filename: service-worker.js # Optional
+#  dest_js_directory: assets/js # Required
+#  precache_recent_posts_num: 5 # Optional
+#  precache_glob_directory: / # Optional
+#  precache_glob_patterns: # Optional
+#    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+#    - index.html
+#  precache_glob_ignores: # Optional
+#    - sw-register.js
+#    - "fonts/**/*"
