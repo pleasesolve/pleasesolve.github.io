@@ -19,7 +19,7 @@ language: "en"
 lang_direction: "ltr"
 color: "#abc123"
 
-
+include: [".well-known"]
 
 back_to_top: true
 back_to_top_text: "Back to top"
