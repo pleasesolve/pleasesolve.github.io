@@ -16,6 +16,6 @@ Learning online involves isolating oneself from social interactions with fellow 
 <p style='text-align:center'>
 [Physics in Tamil](/physics){: .btn}<br>
 [Statistics](/statistics){: .btn}<br>
-[Python and R](/pythonr){: .btn}<br>
-[Data Visualization](/datavis){: .btn}<br>
+[Python and R](/python-r){: .btn}<br>
+[Data Visualization](/datavisual){: .btn}<br>
 </p>
